@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 10%] Built target talker_with_service
+[ 20%] Built target client_sync
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 35%] Built target talker_listener_composition
+[ 45%] Built target talker
+[ 55%] Built target talker_with_service_param
+[ 65%] Built target listener_component
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target talker_component
+[ 95%] Built target client_async
+CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/listener.dir/all' failed
+Makefile:140: recipe for target 'all' failed

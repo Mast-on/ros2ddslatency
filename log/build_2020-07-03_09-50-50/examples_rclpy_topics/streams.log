@@ -1,0 +1,22 @@
+[1.003s] Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_topics build --build-base /home/shiozaki/ros2/build/examples_rclpy_topics/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_topics --record /home/shiozaki/ros2/build/examples_rclpy_topics/install.log --single-version-externally-managed
+[1.365s] running egg_info
+[1.366s] writing /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/PKG-INFO
+[1.367s] writing dependency_links to /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/dependency_links.txt
+[1.367s] writing entry points to /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/entry_points.txt
+[1.368s] writing requirements to /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/requires.txt
+[1.368s] writing top-level names to /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/top_level.txt
+[1.432s] reading manifest file '/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/SOURCES.txt'
+[1.434s] writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/SOURCES.txt'
+[1.435s] running build
+[1.435s] running build_py
+[1.436s] running install
+[1.437s] running install_lib
+[1.439s] running install_data
+[1.440s] running install_egg_info
+[1.443s] removing '/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages/examples_rclpy_topics-0.6.3-py3.6.egg-info' (and everything under it)
+[1.444s] Copying /home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info to /home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages/examples_rclpy_topics-0.6.3-py3.6.egg-info
+[1.446s] running install_scripts
+[1.493s] Installing publisher script to /home/shiozaki/ros2/install/examples_rclpy_topics/lib/examples_rclpy_topics
+[1.494s] Installing subscriber script to /home/shiozaki/ros2/install/examples_rclpy_topics/lib/examples_rclpy_topics
+[1.495s] writing list of installed files to '/home/shiozaki/ros2/build/examples_rclpy_topics/install.log'
+[1.545s] Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_topics build --build-base /home/shiozaki/ros2/build/examples_rclpy_topics/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_topics --record /home/shiozaki/ros2/build/examples_rclpy_topics/install.log --single-version-externally-managed

@@ -1,0 +1,34 @@
+[0.045s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.155s] [ 10%] Built target talker_with_service
+[0.167s] [ 30%] Built target client_sync
+[0.167s] [ 30%] Built target talker_listener_composition
+[0.179s] [ 40%] Built target listener
+[0.197s] [35m[1mScanning dependencies of target talker[0m
+[0.228s] [ 60%] Built target talker_with_service_param
+[0.228s] [ 60%] Built target set_and_get_parameters
+[0.239s] [ 70%] Built target listener_component
+[0.245s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.285s] [ 95%] Built target talker_component
+[0.285s] [ 95%] Built target client_async
+[1.294s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[1.294s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::chron[m[K’ has not been declared
+[1.294s]   img->header.frame_id = std::[01;31m[Kchron[m[K::duration_cast<std::chrono;;microseconds>(num_seconds);
+[1.295s]                               [01;31m[K^~~~~[m[K
+[1.295s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[1.295s]   img->header.frame_id = std::chron::duration_cast<std::chrono[01;31m[K;[m[K;microseconds>(num_seconds);
+[1.295s]                                                               [01;31m[K^[m[K
+[1.295s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmicroseconds[m[K’ was not declared in this scope
+[1.295s]   img->header.frame_id = std::chron::duration_cast<std::chrono;;[01;31m[Kmicroseconds[m[K>(num_seconds);
+[1.295s]                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.295s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:64:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[1.295s] In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[1.295s] [01m[K/usr/include/c++/7/chrono:600:43:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::microseconds[m[K’
+[1.295s]      typedef duration<int64_t, micro>      [01;36m[Kmicroseconds[m[K;
+[1.295s]                                            [01;36m[K^~~~~~~~~~~~[m[K
+[1.720s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+[1.721s] make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[1.721s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[1.721s] CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+[1.721s] Makefile:140: recipe for target 'all' failed
+[1.722s] make: *** [all] Error 2
+[1.724s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

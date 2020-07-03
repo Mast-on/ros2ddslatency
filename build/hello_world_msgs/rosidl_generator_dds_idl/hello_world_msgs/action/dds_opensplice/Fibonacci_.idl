@@ -1,0 +1,281 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from hello_world_msgs:action/Fibonacci.idl
+// generated code does not contain a copyright notice
+#include "builtin_interfaces/msg/dds_opensplice/Time_.idl"
+#include "unique_identifier_msgs/msg/dds_opensplice/UUID_.idl"
+
+#ifndef __hello_world_msgs__action__fibonacci__idl__
+#define __hello_world_msgs__action__fibonacci__idl__
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_Goal_ {
+long order_;
+
+};
+
+#pragma keylist Fibonacci_Goal_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_SendGoal_Request_ {
+unique_identifier_msgs::msg::dds_::UUID_ goal_id_;
+hello_world_msgs::action::dds_::Fibonacci_Goal_ goal_;
+
+};
+
+#pragma keylist Fibonacci_SendGoal_Request_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_SendGoal_Response_ {
+boolean accepted_;
+builtin_interfaces::msg::dds_::Time_ stamp_;
+
+};
+
+#pragma keylist Fibonacci_SendGoal_Response_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+struct Sample_Fibonacci_SendGoal_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::action::dds_::Fibonacci_SendGoal_Request_ request_;
+
+};
+
+#pragma keylist Sample_Fibonacci_SendGoal_Request_
+
+};  // module dds_
+
+};  // module action {
+
+};  // module hello_world_msgs {
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+struct Sample_Fibonacci_SendGoal_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::action::dds_::Fibonacci_SendGoal_Response_ response_;
+
+};
+
+#pragma keylist Sample_Fibonacci_SendGoal_Response_
+
+};  // module dds_
+
+};  // module action {
+
+};  // module hello_world_msgs {
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_Result_ {
+sequence<long> sequence_;
+
+
+};
+
+#pragma keylist Fibonacci_Result_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_GetResult_Request_ {
+unique_identifier_msgs::msg::dds_::UUID_ goal_id_;
+
+};
+
+#pragma keylist Fibonacci_GetResult_Request_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_GetResult_Response_ {
+octet status_;
+hello_world_msgs::action::dds_::Fibonacci_Result_ result_;
+
+};
+
+#pragma keylist Fibonacci_GetResult_Response_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+struct Sample_Fibonacci_GetResult_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::action::dds_::Fibonacci_GetResult_Request_ request_;
+
+};
+
+#pragma keylist Sample_Fibonacci_GetResult_Request_
+
+};  // module dds_
+
+};  // module action {
+
+};  // module hello_world_msgs {
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+struct Sample_Fibonacci_GetResult_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::action::dds_::Fibonacci_GetResult_Response_ response_;
+
+};
+
+#pragma keylist Sample_Fibonacci_GetResult_Response_
+
+};  // module dds_
+
+};  // module action {
+
+};  // module hello_world_msgs {
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_Feedback_ {
+sequence<long> sequence_;
+
+
+};
+
+#pragma keylist Fibonacci_Feedback_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module action {
+
+module dds_ {
+
+
+struct Fibonacci_FeedbackMessage_ {
+unique_identifier_msgs::msg::dds_::UUID_ goal_id_;
+hello_world_msgs::action::dds_::Fibonacci_Feedback_ feedback_;
+
+};
+
+#pragma keylist Fibonacci_FeedbackMessage_
+
+};  // module dds_
+
+};  // module action
+
+};  // module hello_world_msgs
+
+
+#endif  // __hello_world_msgs__action__fibonacci__idl__

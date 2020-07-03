@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hello_world_msgs/srv/SetMessage.srv
+// generated code does not contain a copyright notice
+
+
+module hello_world_msgs {
+  module srv {
+    struct SetMessage_Request {
+      string message;
+    };
+    struct SetMessage_Response {
+      boolean result;
+    };
+  };
+};

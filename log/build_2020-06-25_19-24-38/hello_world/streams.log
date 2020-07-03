@@ -1,0 +1,67 @@
+[0.034s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.135s] [ 10%] Built target talker_listener_composition
+[0.145s] [ 20%] Built target client_sync
+[0.148s] [ 40%] Built target talker_with_service
+[0.148s] [ 40%] Built target listener
+[0.169s] [35m[1mScanning dependencies of target talker[0m
+[0.203s] [ 50%] Built target set_and_get_parameters
+[0.211s] [ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.212s] [ 65%] Built target talker_with_service_param
+[0.218s] [ 75%] Built target listener_component
+[0.265s] [ 85%] Built target client_async
+[0.275s] [ 95%] Built target talker_component
+[1.278s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker(const string&)[m[K’:
+[1.278s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:50:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.278s]      pub_ = create_publisher<std_msgs::msg::String>(topic_name[01;35m[K)[m[K;
+[1.278s]                                                               [01;35m[K^[m[K
+[1.279s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.279s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[1.279s] [01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.279s]  [01;36m[KNode[m[K::create_publisher(
+[1.280s]  [01;36m[K^~~~[m[K
+[2.458s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.643s] [100%] Built target talker
+[2.657s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[2.718s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world --target install -- -j4 -l4
+[2.802s] [ 40%] Built target client_sync
+[2.803s] [ 40%] Built target talker_listener_composition
+[2.803s] [ 40%] Built target talker_with_service
+[2.803s] [ 40%] Built target listener
+[2.850s] [ 50%] Built target talker
+[2.851s] [ 60%] Built target talker_with_service_param
+[2.854s] [ 70%] Built target set_and_get_parameters
+[2.858s] [ 80%] Built target listener_component
+[2.886s] [ 90%] Built target client_async
+[2.890s] [100%] Built target talker_component
+[2.914s] [36mInstall the project...[0m
+[2.925s] -- Install configuration: ""
+[2.925s] -- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker
+[2.926s] -- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/talker" to ""
+[2.927s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service
+[2.927s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service_param
+[2.928s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/listener
+[2.928s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/client_sync
+[2.929s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/client_async
+[2.929s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_listener_composition
+[2.930s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/lib/hello_world/set_and_get_parameters
+[2.930s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch
+[2.930s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener_with_param.launch.py
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/params.yaml
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener.launch.py
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener_with_param_file.launch.py
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+[2.931s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/environment/path.sh
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.bash
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.sh
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.zsh
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/packages/hello_world
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/rclcpp_components/hello_world
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+[2.932s] -- Up-to-date: /home/shiozaki/ros2/install/hello_world/share/hello_world/package.xml
+[2.936s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world --target install -- -j4 -l4

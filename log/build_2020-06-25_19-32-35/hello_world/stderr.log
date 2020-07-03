@@ -1,0 +1,233 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:36:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst char [13][m[K’ and ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’)
+         msg->data = [01;31m[K"Hello world!" + now[m[K;
+                     [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[01m[K/usr/include/c++/7/chrono:728:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Rep1, class _Period1, class _Clock, class _Dur2> constexpr std::chrono::time_point<_Clock, typename std::common_type<std::chrono::duration<_Rep1, _Period1>, _Dur2>::type> std::chrono::operator+(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::time_point<_Clock, _Dur2>&)
+       [01;36m[Koperator[m[K+(const duration<_Rep1, _Period1>& __lhs,
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/chrono:728:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[01m[K/usr/include/c++/7/chrono:715:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator+(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)
+       [01;36m[Koperator[m[K+(const time_point<_Clock, _Dur1>& __lhs,
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/chrono:715:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::time_point<_Clock, _Duration1>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[01m[K/usr/include/c++/7/chrono:446:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)
+       [01;36m[Koperator[m[K+(const duration<_Rep1, _Period1>& __lhs,
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/chrono:446:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/vector:65:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:27[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:387:3:[m[K [01;36m[Knote: [m[Kcandidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   [01;36m[Koperator[m[K+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:387:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ to ‘[01m[Kconst std::_Bit_const_iterator&[m[K’
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:297:3:[m[K [01;36m[Knote: [m[Kcandidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   [01;36m[Koperator[m[K+(ptrdiff_t __n, const _Bit_iterator& __x)
+   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_bvector.h:297:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ to ‘[01m[Kconst std::_Bit_iterator&[m[K’
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5995:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, _CharT)
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5995:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5989:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _CharT*)
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5989:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5983:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     [01;36m[Koperator[m[K+(_CharT __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5983:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5977:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5977:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5965:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5965:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5959:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&)
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5959:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5953:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5953:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5941:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5941:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5925:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5925:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:53:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.tcc:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.tcc:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:53:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.tcc:1157:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.tcc:1157:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/7/array:39[m[K,
+                 from [01m[K/usr/include/c++/7/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/7/memory:80[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/basic_string.h:5888:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/basic_string.h:5888:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Kconst char [13][m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:62[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1201:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)
+     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:1201:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+                 from [01m[K/usr/include/c++/7/memory:62[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:17[m[K:
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:400:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_iterator.h:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+         msg->data = "Hello world!" + [01;36m[Know[m[K;
+                                      [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

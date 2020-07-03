@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/PKG-INFO
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/SOURCES.txt
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/dependency_links.txt
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/entry_points.txt
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/requires.txt
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/top_level.txt
+/home/shiozaki/ros2/build/examples_rclpy_topics/examples_rclpy_topics.egg-info/zip-safe
+examples_rclpy_topics/__init__.py
+examples_rclpy_topics/publisher.py
+examples_rclpy_topics/subscriber.py
+resource/examples_rclpy_topics

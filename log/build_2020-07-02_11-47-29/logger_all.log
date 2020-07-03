@@ -1,0 +1,551 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fad0243f5c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fad0243f5c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fad0243f908>)
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiozaki/ros2'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_description) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_driver) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_msgs) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/ca_tools) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/create_autonomy/create_autonomy) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_actions) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/examples_rclpy/examples_rclpy_actions' with type 'ros.ament_python' and name 'examples_rclpy_minimal_action_server'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_services) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/examples_rclpy/examples_rclpy_services' with type 'ros.ament_python' and name 'examples_rclpy_services'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/examples_rclpy/examples_rclpy_topics) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/examples_rclpy/examples_rclpy_topics' with type 'ros.ament_python' and name 'examples_rclpy_topics'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fibonacci' with type 'ros.ament_cmake' and name 'fibonacci'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_world' with type 'ros.ament_cmake' and name 'hello_world'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_world_msgs' with type 'ros.ament_cmake' and name 'hello_world_msgs'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/libcreate) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libcreate' with type 'ros.cmake' and name 'libcreate'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/policies/common/node) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_minimal_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_minimal_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_services' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_services' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/examples_rclpy_services', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/examples_rclpy_services', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'examples_rclpy_topics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'examples_rclpy_topics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/examples_rclpy_topics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/examples_rclpy_topics', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'hello_world_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/hello_world_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/hello_world_msgs', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/hello_world_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'libcreate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'libcreate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/libcreate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/libcreate', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/libcreate', 'symlink_install': False, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'fibonacci' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'fibonacci' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/fibonacci', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/fibonacci', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/fibonacci', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'hello_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'hello_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiozaki/ros2/build/hello_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiozaki/ros2/install/hello_world', 'merge_install': False, 'path': '/home/shiozaki/ros2/src/hello_world', 'symlink_install': False, 'test_result_base': None}
+[0.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiozaki/ros2/src/hello_world_msgs' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiozaki/ros2/src/hello_world_msgs'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions' with build type 'ament_python'
+[0.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_minimal_action_server', 'ament_prefix_path')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/ament_prefix_path.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/ament_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/ament_prefix_path.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.326s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services' with build type 'ament_python'
+[0.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_services', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.333s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_topics', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/ament_prefix_path.ps1'
+[0.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/ament_prefix_path.dsv'
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/ament_prefix_path.sh'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/hello_world_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world_msgs -- -j4 -l4
+[0.731s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'examples_rclpy_minimal_action_server' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.732s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'examples_rclpy_minimal_action_server' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.732s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.738s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.041s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services'
+[1.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.289s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics'
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.293s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world_msgs -- -j4 -l4
+[1.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server build --build-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server --record /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed
+[1.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_topics build --build-base /home/shiozaki/ros2/build/examples_rclpy_topics/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_topics --record /home/shiozaki/ros2/build/examples_rclpy_topics/install.log --single-version-externally-managed
+[1.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/hello_world_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world_msgs --target install -- -j4 -l4
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server' for CMake module files
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server' for CMake config files
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server build --build-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server --record /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/bin'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/pkgconfig/examples_rclpy_minimal_action_server.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages'
+[1.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_minimal_action_server', 'pythonpath')
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/pythonpath.ps1'
+[1.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/pythonpath.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/hook/pythonpath.sh'
+[1.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclpy_minimal_action_server)
+[1.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/package.ps1'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/package.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/package.sh'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/package.bash'
+[1.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server/package.zsh'
+[1.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/share/colcon-core/packages/examples_rclpy_minimal_action_server)
+[1.897s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/shiozaki/ros2/src/libcreate' with build type 'cmake'
+[1.911s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiozaki/ros2/src/libcreate'
+[1.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.916s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics' for CMake module files
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_topics' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_topics build --build-base /home/shiozaki/ros2/build/examples_rclpy_topics/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_topics --record /home/shiozaki/ros2/build/examples_rclpy_topics/install.log --single-version-externally-managed
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics' for CMake config files
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics/lib'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics/bin'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics/lib/pkgconfig/examples_rclpy_topics.pc'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_topics/lib/python3.6/site-packages'
+[1.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_topics', 'pythonpath')
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/pythonpath.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/pythonpath.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/hook/pythonpath.sh'
+[1.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclpy_topics)
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/package.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/package.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/package.sh'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/package.bash'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_topics/share/examples_rclpy_topics/package.zsh'
+[1.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/examples_rclpy_topics/share/colcon-core/packages/examples_rclpy_topics)
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services' for CMake module files
+[1.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services' for CMake config files
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services/lib'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services/bin'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services/lib/pkgconfig/examples_rclpy_services.pc'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages'
+[1.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples_rclpy_services', 'pythonpath')
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/pythonpath.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/pythonpath.dsv'
+[1.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/hook/pythonpath.sh'
+[1.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples_rclpy_services)
+[1.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/package.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/package.dsv'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/package.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/package.bash'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services/package.zsh'
+[1.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/examples_rclpy_services/share/colcon-core/packages/examples_rclpy_services)
+[1.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4
+[2.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_world_msgs)
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs' for CMake module files
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world_msgs --target install -- -j4 -l4
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs' for CMake config files
+[2.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'cmake_prefix_path')
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.ps1'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs/lib'
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'ld_library_path_lib')
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.dsv'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.sh'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs/bin'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs/lib/pkgconfig/hello_world_msgs.pc'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages'
+[2.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'pythonpath')
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.ps1'
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.dsv'
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.sh'
+[2.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/package.ps1'
+[2.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/package.dsv'
+[2.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/package.sh'
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/package.bash'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/package.zsh'
+[2.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/hello_world_msgs/share/colcon-core/packages/hello_world_msgs)
+[2.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiozaki/ros2/src/fibonacci' with build type 'ament_cmake'
+[2.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiozaki/ros2/src/fibonacci'
+[2.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.496s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[2.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiozaki/ros2/src/hello_world' with build type 'ament_cmake'
+[2.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiozaki/ros2/src/hello_world'
+[2.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.508s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[2.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/fibonacci': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci -- -j4 -l4
+[2.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[2.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcreate', 'pkg_config_path')
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path.ps1'
+[2.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path.dsv'
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path.sh'
+[2.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcreate', 'pkg_config_path_multiarch')
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path_multiarch.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path_multiarch.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/pkg_config_path_multiarch.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libcreate)
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate' for CMake module files
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate' for CMake config files
+[2.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcreate', 'cmake_prefix_path')
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/cmake_prefix_path.ps1'
+[2.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/cmake_prefix_path.dsv'
+[2.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/cmake_prefix_path.sh'
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate/lib'
+[2.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('libcreate', 'ld_library_path_lib')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/ld_library_path_lib.ps1'
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/ld_library_path_lib.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/libcreate/share/libcreate/hook/ld_library_path_lib.sh'
+[2.586s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate/bin'
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate/lib/pkgconfig/libcreate.pc'
+[2.587s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/libcreate/lib/python3.6/site-packages'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/libcreate/share/libcreate/package.ps1'
+[2.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/libcreate/share/libcreate/package.dsv'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/libcreate/share/libcreate/package.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/libcreate/share/libcreate/package.bash'
+[2.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/libcreate/share/libcreate/package.zsh'
+[2.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/libcreate/share/colcon-core/packages/libcreate)
+[2.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/fibonacci' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci -- -j4 -l4
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/fibonacci': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci --target install -- -j4 -l4
+[2.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fibonacci)
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci' for CMake module files
+[2.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/fibonacci' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci --target install -- -j4 -l4
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci' for CMake config files
+[2.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('fibonacci', 'cmake_prefix_path')
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/hook/cmake_prefix_path.ps1'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/hook/cmake_prefix_path.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/hook/cmake_prefix_path.sh'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci/lib'
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci/bin'
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci/lib/pkgconfig/fibonacci.pc'
+[2.909s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/fibonacci/lib/python3.6/site-packages'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.ps1'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.dsv'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.sh'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.bash'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.zsh'
+[2.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/fibonacci/share/colcon-core/packages/fibonacci)
+[5.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[5.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world --target install -- -j4 -l4
+[5.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_world)
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world' for CMake module files
+[5.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '0': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world --target install -- -j4 -l4
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world' for CMake config files
+[5.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world', 'cmake_prefix_path')
+[5.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world/share/hello_world/hook/cmake_prefix_path.ps1'
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiozaki/ros2/install/hello_world/share/hello_world/hook/cmake_prefix_path.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiozaki/ros2/install/hello_world/share/hello_world/hook/cmake_prefix_path.sh'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world/lib'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world/bin'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world/lib/pkgconfig/hello_world.pc'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/shiozaki/ros2/install/hello_world/lib/python3.6/site-packages'
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world/share/hello_world/package.ps1'
+[5.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiozaki/ros2/install/hello_world/share/hello_world/package.dsv'
+[5.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world/share/hello_world/package.sh'
+[5.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world/share/hello_world/package.bash'
+[5.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiozaki/ros2/install/hello_world/share/hello_world/package.zsh'
+[5.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiozaki/ros2/install/hello_world/share/colcon-core/packages/hello_world)
+[5.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.478s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.485s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.488s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiozaki/ros2/install/local_setup.ps1'
+[5.491s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiozaki/ros2/install/_local_setup_util_ps1.py'
+[5.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiozaki/ros2/install/setup.ps1'
+[5.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiozaki/ros2/install/local_setup.sh'
+[5.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiozaki/ros2/install/_local_setup_util_sh.py'
+[5.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiozaki/ros2/install/setup.sh'
+[5.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiozaki/ros2/install/local_setup.bash'
+[5.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiozaki/ros2/install/setup.bash'
+[5.504s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiozaki/ros2/install/local_setup.zsh'
+[5.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiozaki/ros2/install/setup.zsh'

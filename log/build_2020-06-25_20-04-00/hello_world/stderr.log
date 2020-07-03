@@ -1,0 +1,14 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:44:56:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now()[m[K’
+         msg->data = "Hello world!" + std::to_string(now[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:998:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Know[m[K();
+   [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

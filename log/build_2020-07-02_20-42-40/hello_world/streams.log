@@ -1,0 +1,73 @@
+[0.041s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.142s] [ 10%] Built target client_sync
+[0.162s] [ 20%] Built target listener
+[0.166s] [ 30%] Built target talker_with_service
+[0.177s] [ 40%] Built target talker_listener_composition
+[0.191s] [35m[1mScanning dependencies of target talker[0m
+[0.200s] [ 50%] Built target talker_with_service_param
+[0.234s] [ 60%] Built target set_and_get_parameters
+[0.235s] [ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.239s] [ 75%] Built target listener_component
+[0.273s] [ 85%] Built target talker_component
+[0.286s] [ 95%] Built target client_async
+[1.273s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[1.273s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:46:10:[m[K [01;35m[Kwarning: [m[Kdecomposition declaration only available with -std=c++1z or -std=gnu++1z
+[1.274s]   int32_t [01;35m[K[[m[K]data = {1, 2, 3};
+[1.274s]           [01;35m[K^[m[K
+[1.274s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:46:10:[m[K [01;31m[Kerror: [m[Kdecomposition declaration cannot be declared with type ‘[01m[Kint32_t {aka int}[m[K’
+[1.274s]   int32_t [01;31m[K[][m[Kdata = {1, 2, 3};
+[1.274s]           [01;31m[K^~[m[K
+[1.274s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:46:10:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[1.274s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:46:10:[m[K [01;31m[Kerror: [m[Kempty decomposition declaration
+[1.274s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:46:12:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kdata[m[K’
+[1.274s]   int32_t [][01;31m[Kdata[m[K = {1, 2, 3};
+[1.274s]             [01;31m[K^~~~[m[K
+[1.277s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope
+[1.277s]   arr_msg->data = [01;31m[Kdata[m[K;
+[1.277s]                   [01;31m[K^~~~[m[K
+[1.278s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.279s]          [01;31m[Kmsg[m[K->data = "Hello world!";
+[1.279s]          [01;31m[K^~~[m[K
+[1.279s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:49:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.279s] In file included from [01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message.hpp:7:0[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:31[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.279s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.280s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[1.280s] [01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.280s]  namespace [01;36m[Kmsg[m[K
+[1.280s]            [01;36m[K^~~[m[K
+[1.280s] In file included from [01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time.hpp:7:0[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/time.hpp:18[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/clock.hpp:21[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/timer.hpp:26[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:27[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.280s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.281s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.281s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.281s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.281s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.281s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.281s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[1.281s] [01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.281s]  namespace [01;36m[Kmsg[m[K
+[1.281s]            [01;36m[K^~~[m[K
+[1.281s] In file included from [01m[K/opt/ros/dashing/include/std_msgs/msg/string.hpp:7:0[m[K,
+[1.281s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:20[m[K:
+[1.281s] [01m[K/opt/ros/dashing/include/std_msgs/msg/string__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[1.282s]  namespace [01;36m[Kmsg[m[K
+[1.282s]            [01;36m[K^~~[m[K
+[1.708s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+[1.708s] make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[1.708s] CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+[1.709s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[1.709s] Makefile:140: recipe for target 'all' failed
+[1.709s] make: *** [all] Error 2
+[1.711s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

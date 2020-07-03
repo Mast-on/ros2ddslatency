@@ -1,0 +1,22 @@
+[0.991s] Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server build --build-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server --record /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.375s] running egg_info
+[1.377s] writing /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/PKG-INFO
+[1.377s] writing dependency_links to /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/dependency_links.txt
+[1.377s] writing entry points to /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/entry_points.txt
+[1.378s] writing requirements to /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/requires.txt
+[1.378s] writing top-level names to /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/top_level.txt
+[1.443s] reading manifest file '/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/SOURCES.txt'
+[1.446s] writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/SOURCES.txt'
+[1.446s] running build
+[1.446s] running build_py
+[1.447s] running install
+[1.448s] running install_lib
+[1.450s] running install_data
+[1.450s] running install_egg_info
+[1.454s] removing '/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_actions-0.6.3-py3.6.egg-info' (and everything under it)
+[1.454s] Copying /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info to /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages/examples_rclpy_actions-0.6.3-py3.6.egg-info
+[1.456s] running install_scripts
+[1.506s] Installing client script to /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_actions
+[1.506s] Installing server script to /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_actions
+[1.506s] writing list of installed files to '/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/install.log'
+[1.562s] Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_actions' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server build --build-base /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_minimal_action_server --record /home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

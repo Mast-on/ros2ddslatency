@@ -1,0 +1,38 @@
+[0.038s] Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[0.175s] [ 36%] Built target create
+[0.233s] [ 45%] Built target packets
+[0.238s] [ 54%] Built target battery_level
+[0.239s] [ 63%] Built target play_song
+[0.246s] [ 72%] Built target wheeldrop
+[0.279s] [ 81%] Built target drive_circle
+[0.282s] [ 90%] Built target leds
+[0.287s] [100%] Built target bumpers
+[0.304s] Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[0.381s] Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4
+[0.485s] [ 36%] Built target create
+[0.530s] [ 45%] Built target play_song
+[0.532s] [ 54%] Built target wheeldrop
+[0.537s] [ 63%] Built target packets
+[0.555s] [ 72%] Built target battery_level
+[0.576s] [ 81%] Built target drive_circle
+[0.579s] [ 90%] Built target leds
+[0.587s] [100%] Built target bumpers
+[0.614s] [36mInstall the project...[0m
+[0.624s] -- Install configuration: ""
+[0.625s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/libcreate.so
+[0.625s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include
+[0.625s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create
+[0.625s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial_stream.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/types.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/util.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/data.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/create.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial_query.h
+[0.626s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/packet.h
+[0.627s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+[0.627s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+[0.627s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+[0.627s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+[0.627s] -- Up-to-date: /home/shiozaki/ros2/install/libcreate/share/libcreate/package.xml
+[0.631s] Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4

@@ -1,0 +1,7 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:41:44:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ to type ‘[01m[Kchar[m[K’
+         msg->data = "Hello world!" + (char)[01;31m[Know[m[K;
+                                            [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

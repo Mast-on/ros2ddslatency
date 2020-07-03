@@ -1,0 +1,11 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:40:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_second[m[K’ was not declared in this scope
+  img->header.frame_id = std::to_string([01;31m[Knum_second[m[K);
+                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:40:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knum_seconds[m[K’
+  img->header.frame_id = std::to_string([01;36m[Knum_second[m[K);
+                                        [01;36m[K^~~~~~~~~~[m[K
+                                        [32m[Knum_seconds[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

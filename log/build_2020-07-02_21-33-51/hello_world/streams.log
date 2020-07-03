@@ -1,0 +1,102 @@
+[0.024s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.111s] [35m[1mScanning dependencies of target listener[0m
+[0.137s] [ 10%] Built target talker_with_service
+[0.143s] [ 20%] Built target talker_listener_composition
+[0.151s] [ 30%] Built target client_sync
+[0.158s] [ 35%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.196s] [ 45%] Built target talker_with_service_param
+[0.217s] [ 55%] Built target talker
+[0.218s] [ 65%] Built target listener_component
+[0.253s] [ 75%] Built target set_and_get_parameters
+[0.273s] [ 85%] Built target client_async
+[0.273s] [ 95%] Built target talker_component
+[1.270s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.270s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.271s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:19[m[K:
+[1.271s] [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:[m[K In lambda function:
+[1.271s] [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:38:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type&)[m[K’
+[1.271s]          RCLCPP_INFO(this->get_logger(), std::to_string(msg->data[01;31m[K)[m[K);
+[1.271s]                                                                  [01;31m[K^[m[K
+[1.271s] [01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[1.271s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[1.271s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[1.271s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[1.271s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[1.271s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.271s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+[1.272s]        rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+[1.272s]                             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.272s] [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:38:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.272s]          [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), std::to_string(msg->data));
+[1.272s]          [01;36m[K^~~~~~~~~~~[m[K
+[1.272s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/node_interfaces/node_parameters_interface.hpp:27:0[m[K,
+[1.272s]                  from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:49[m[K,
+[1.272s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.272s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[1.272s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.272s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:19[m[K:
+[1.272s] [01m[K/opt/ros/dashing/include/rclcpp/parameter.hpp:236:1:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::to_string(const rclcpp::Parameter&)
+[1.272s]  [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+[1.273s]  [01;36m[K^~~~~~~~~[m[K
+[1.273s] [01m[K/opt/ros/dashing/include/rclcpp/parameter.hpp:236:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[1.273s] [01m[K/opt/ros/dashing/include/rclcpp/parameter.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::to_string(const std::vector<rclcpp::Parameter>&)
+[1.273s]  [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+[1.273s]  [01;36m[K^~~~~~~~~[m[K
+[1.273s] [01m[K/opt/ros/dashing/include/rclcpp/parameter.hpp:241:1:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[1.273s] In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+[1.273s]                  from [01m[K/usr/include/c++/7/stdexcept:39[m[K,
+[1.273s]                  from [01m[K/usr/include/c++/7/array:39[m[K,
+[1.273s]                  from [01m[K/usr/include/c++/7/tuple:39[m[K,
+[1.273s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[1.273s]                  from [01m[K/usr/include/c++/7/memory:80[m[K,
+[1.273s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:17[m[K:
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long double)
+[1.274s]    [01;36m[Kto_string[m[K(long double __val)
+[1.274s]    [01;36m[K^~~~~~~~~[m[K
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6466:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Klong double[m[K’
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(double)
+[1.274s]    [01;36m[Kto_string[m[K(double __val)
+[1.274s]    [01;36m[K^~~~~~~~~[m[K
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6457:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kdouble[m[K’
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(float)
+[1.274s]    [01;36m[Kto_string[m[K(float __val)
+[1.274s]    [01;36m[K^~~~~~~~~[m[K
+[1.274s] [01m[K/usr/include/c++/7/bits/basic_string.h:6448:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kfloat[m[K’
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long unsigned int)
+[1.275s]    [01;36m[Kto_string[m[K(unsigned long long __val)
+[1.275s]    [01;36m[K^~~~~~~~~[m[K
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6442:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long long int)
+[1.275s]    [01;36m[Kto_string[m[K(long long __val)
+[1.275s]    [01;36m[K^~~~~~~~~[m[K
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6436:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Klong long int[m[K’
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long unsigned int)
+[1.275s]    [01;36m[Kto_string[m[K(unsigned long __val)
+[1.275s]    [01;36m[K^~~~~~~~~[m[K
+[1.275s] [01m[K/usr/include/c++/7/bits/basic_string.h:6430:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(long int)
+[1.276s]    [01;36m[Kto_string[m[K(long __val)
+[1.276s]    [01;36m[K^~~~~~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6425:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Klong int[m[K’
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(unsigned int)
+[1.276s]    [01;36m[Kto_string[m[K(unsigned __val)
+[1.276s]    [01;36m[K^~~~~~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6419:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kunsigned int[m[K’
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string std::__cxx11::to_string(int)
+[1.276s]    [01;36m[Kto_string[m[K(int __val)
+[1.276s]    [01;36m[K^~~~~~~~~[m[K
+[1.276s] [01m[K/usr/include/c++/7/bits/basic_string.h:6414:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ to ‘[01m[Kint[m[K’
+[1.968s] CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+[1.968s] make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[1.968s] make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+[1.968s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/listener.dir/all' failed
+[1.968s] Makefile:140: recipe for target 'all' failed
+[1.968s] make: *** [all] Error 2
+[1.971s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

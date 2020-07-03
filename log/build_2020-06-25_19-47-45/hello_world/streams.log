@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.157s] [ 15%] Built target talker_listener_composition
+[0.157s] [ 30%] Built target listener
+[0.157s] [ 30%] Built target client_sync
+[0.177s] [ 40%] Built target talker_with_service
+[0.184s] [35m[1mScanning dependencies of target talker[0m
+[0.215s] [ 50%] Built target talker_with_service_param
+[0.217s] [ 60%] Built target listener_component
+[0.225s] [ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.233s] [ 75%] Built target set_and_get_parameters
+[0.269s] [ 85%] Built target client_async
+[0.273s] [ 95%] Built target talker_component
+[1.243s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[1.243s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kduble[m[K’ was not declared in this scope
+[1.243s]   std::chrono::duration<[01;31m[Kduble[m[K> diff = end - start;
+[1.243s]                         [01;31m[K^~~~~[m[K
+[1.244s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble[m[K’
+[1.244s]   std::chrono::duration<[01;36m[Kduble[m[K> diff = end - start;
+[1.244s]                         [01;36m[K^~~~~[m[K
+[1.244s]                         [32m[Kdouble[m[K
+[1.244s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.244s]   std::chrono::duration<duble[01;31m[K>[m[K diff = end - start;
+[1.244s]                              [01;31m[K^[m[K
+[1.244s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__success_type<std::chrono::duration<long int, std::ratio<1, 1000000000> > >::type {aka std::chrono::duration<long int, std::ratio<1, 1000000000> >}[m[K’ to ‘[01m[Kint[m[K’ in initialization
+[1.244s]   std::chrono::duration<duble> diff = end - [01;31m[Kstart[m[K;
+[1.244s]                                             [01;31m[K^~~~~[m[K
+[1.245s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:43:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcount[m[K’ in ‘[01m[Kdiff[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.245s]          msg->data = "Hello world!" + (char)diff.[01;31m[Kcount[m[K();
+[1.245s]                                                  [01;31m[K^~~~~[m[K
+[1.657s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+[1.658s] make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[1.658s] CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+[1.658s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[1.658s] Makefile:140: recipe for target 'all' failed
+[1.658s] make: *** [all] Error 2
+[1.660s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

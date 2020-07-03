@@ -1,0 +1,13 @@
+[ 10%] Built target talker_listener_composition
+[ 20%] Built target listener
+[ 30%] Built target talker_with_service
+[ 40%] Built target client_sync
+[ 50%] Built target talker_with_service_param
+[ 55%] [32m[1mLinking CXX executable talker[0m
+[ 65%] Built target set_and_get_parameters
+[ 75%] Built target listener_component
+[ 85%] Built target talker_component
+[ 95%] Built target client_async
+CMakeFiles/talker.dir/build.make:155: recipe for target 'talker' failed
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+Makefile:140: recipe for target 'all' failed

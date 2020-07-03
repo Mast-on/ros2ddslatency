@@ -1,0 +1,7 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:44:53:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Time rclcpp::Node::now()[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+         msg->data = "Hello world!" + std::to_string([01;31m[Know[m[K.count());
+                                                     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

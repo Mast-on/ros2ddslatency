@@ -1,0 +1,105 @@
+[0.039s] Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/shiozaki/ros2/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/libcreate
+[0.128s] -- The C compiler identification is GNU 7.5.0
+[0.215s] -- The CXX compiler identification is GNU 7.5.0
+[0.223s] -- Check for working C compiler: /usr/bin/cc
+[0.316s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.317s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.421s] -- Detecting C compile features
+[0.686s] -- Detecting C compile features - done
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++
+[0.789s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.789s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.920s] -- Detecting CXX compile features
+[1.402s] -- Detecting CXX compile features - done
+[1.452s] -- Looking for pthread.h
+[1.555s] -- Looking for pthread.h - found
+[1.557s] -- Looking for pthread_create
+[1.656s] -- Looking for pthread_create - not found
+[1.656s] -- Looking for pthread_create in pthreads
+[1.730s] -- Looking for pthread_create in pthreads - not found
+[1.730s] -- Looking for pthread_create in pthread
+[1.826s] -- Looking for pthread_create in pthread - found
+[1.828s] -- Found Threads: TRUE  
+[1.874s] -- Boost version: 1.65.1
+[1.874s] -- Found the following Boost libraries:
+[1.874s] --   system
+[1.874s] --   thread
+[1.875s] --   chrono
+[1.875s] --   date_time
+[1.875s] --   atomic
+[1.893s] -- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_MAIN_LIBRARY) 
+[1.893s] No GTest installation found. Skipping tests.
+[1.894s] -- Configuring done
+[1.921s] -- Generating done
+[1.923s] -- Build files have been written to: /home/shiozaki/ros2/build/libcreate
+[1.927s] Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/shiozaki/ros2/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/libcreate
+[1.929s] Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[1.993s] [35m[1mScanning dependencies of target create[0m
+[2.014s] [  4%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial.cpp.o[0m
+[2.015s] [  9%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[2.022s] [ 13%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_query.cpp.o[0m
+[2.029s] [ 18%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_stream.cpp.o[0m
+[7.212s] [ 22%] [32mBuilding CXX object CMakeFiles/create.dir/src/data.cpp.o[0m
+[7.687s] [ 27%] [32mBuilding CXX object CMakeFiles/create.dir/src/packet.cpp.o[0m
+[9.497s] [ 31%] [32mBuilding CXX object CMakeFiles/create.dir/src/types.cpp.o[0m
+[10.512s] [ 36%] [32m[1mLinking CXX shared library libcreate.so[0m
+[10.946s] [ 36%] Built target create
+[11.037s] [35m[1mScanning dependencies of target wheeldrop[0m
+[11.040s] [35m[1mScanning dependencies of target packets[0m
+[11.043s] [35m[1mScanning dependencies of target battery_level[0m
+[11.063s] [35m[1mScanning dependencies of target play_song[0m
+[11.135s] [ 40%] [32mBuilding CXX object CMakeFiles/wheeldrop.dir/examples/wheeldrop.cpp.o[0m
+[11.139s] [ 45%] [32mBuilding CXX object CMakeFiles/battery_level.dir/examples/battery_level.cpp.o[0m
+[11.143s] [ 50%] [32mBuilding CXX object CMakeFiles/packets.dir/examples/packets.cpp.o[0m
+[11.150s] [ 54%] [32mBuilding CXX object CMakeFiles/play_song.dir/examples/play_song.cpp.o[0m
+[20.211s] [ 59%] [32m[1mLinking CXX executable play_song[0m
+[20.651s] [ 59%] Built target play_song
+[20.739s] [35m[1mScanning dependencies of target drive_circle[0m
+[20.790s] [ 63%] [32m[1mLinking CXX executable battery_level[0m
+[20.821s] [ 68%] [32mBuilding CXX object CMakeFiles/drive_circle.dir/examples/drive_circle.cpp.o[0m
+[20.917s] [ 72%] [32m[1mLinking CXX executable wheeldrop[0m
+[21.135s] [ 77%] [32m[1mLinking CXX executable packets[0m
+[21.438s] [ 77%] Built target battery_level
+[21.544s] [35m[1mScanning dependencies of target leds[0m
+[21.548s] [ 77%] Built target wheeldrop
+[21.571s] [ 77%] Built target packets
+[21.639s] [ 81%] [32mBuilding CXX object CMakeFiles/leds.dir/examples/leds.cpp.o[0m
+[21.642s] [35m[1mScanning dependencies of target bumpers[0m
+[21.696s] [ 86%] [32mBuilding CXX object CMakeFiles/bumpers.dir/examples/bumpers.cpp.o[0m
+[28.785s] [ 90%] [32m[1mLinking CXX executable drive_circle[0m
+[29.096s] [ 90%] Built target drive_circle
+[29.307s] [ 95%] [32m[1mLinking CXX executable leds[0m
+[29.515s] [ 95%] Built target leds
+[29.530s] [100%] [32m[1mLinking CXX executable bumpers[0m
+[29.658s] [100%] Built target bumpers
+[29.673s] Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+[29.752s] Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4
+[29.825s] [ 36%] Built target create
+[29.887s] [ 45%] Built target play_song
+[29.897s] [ 54%] Built target packets
+[29.908s] [ 63%] Built target battery_level
+[29.911s] [ 72%] Built target wheeldrop
+[29.963s] [ 81%] Built target bumpers
+[29.966s] [ 90%] Built target drive_circle
+[29.980s] [100%] Built target leds
+[30.014s] [36mInstall the project...[0m
+[30.031s] -- Install configuration: ""
+[30.031s] -- Installing: /home/shiozaki/ros2/install/libcreate/lib/libcreate.so
+[30.033s] -- Installing: /home/shiozaki/ros2/install/libcreate/include
+[30.033s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create
+[30.034s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/serial_stream.h
+[30.034s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/types.h
+[30.034s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/util.h
+[30.034s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/data.h
+[30.034s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/create.h
+[30.035s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/serial.h
+[30.035s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/serial_query.h
+[30.035s] -- Installing: /home/shiozaki/ros2/install/libcreate/include/create/packet.h
+[30.035s] -- Installing: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+[30.035s] -- Installing: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+[30.036s] -- Installing: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+[30.036s] -- Installing: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+[30.036s] -- Installing: /home/shiozaki/ros2/install/libcreate/share/libcreate/package.xml
+[30.046s] Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4

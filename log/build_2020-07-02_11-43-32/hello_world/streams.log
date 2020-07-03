@@ -1,0 +1,63 @@
+[0.036s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.167s] [ 10%] Built target client_sync
+[0.171s] [ 20%] Built target talker_with_service
+[0.176s] [ 30%] Built target listener
+[0.189s] [ 40%] Built target talker_listener_composition
+[0.202s] [35m[1mScanning dependencies of target talker[0m
+[0.228s] [ 50%] Built target talker_with_service_param
+[0.242s] [ 60%] Built target listener_component
+[0.252s] [ 70%] Built target set_and_get_parameters
+[0.260s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.291s] [ 95%] Built target talker_component
+[0.291s] [ 95%] Built target client_async
+[1.299s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[1.299s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:50:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ has no member named ‘[01m[Kcount[m[K’
+[1.300s]          msg->data = "Hello world!" + std::to_string(start.[01;31m[Kcount[m[K());
+[1.300s]                                                            [01;31m[K^~~~~[m[K
+[1.304s] [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::publish(std::remove_reference<double&>::type)[m[K’
+[1.304s]          pub_->publish(std::move(num_seconds)[01;31m[K)[m[K;
+[1.304s]                                              [01;31m[K^[m[K
+[1.305s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24:0[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.305s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.306s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.306s]                  from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[1.306s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:100:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<T>::allocator_type>::rebind_alloc<T>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<T>::allocator_type> >::type>) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<T>::allocator_type>::rebind_alloc<T>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<T>::allocator_type> >::type = std::default_delete<std_msgs::msg::String_<std::allocator<void> > >]
+[1.306s]    [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+[1.306s]    [01;36m[K^~~~~~~[m[K
+[1.306s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:100:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kstd::unique_ptr<std_msgs::msg::String_<std::allocator<void> >, std::default_delete<std_msgs::msg::String_<std::allocator<void> > > >[m[K’
+[1.307s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(const std::shared_ptr<const _Tp>&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>]
+[1.307s]    [01;36m[Kpublish[m[K(const std::shared_ptr<const MessageT> & msg)
+[1.307s]    [01;36m[K^~~~~~~[m[K
+[1.307s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:137:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kconst std::shared_ptr<const std_msgs::msg::String_<std::allocator<void> > >&[m[K’
+[1.307s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:143:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(const MessageT&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>]
+[1.307s]    [01;36m[Kpublish[m[K(const MessageT & msg)
+[1.307s]    [01;36m[K^~~~~~~[m[K
+[1.308s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:143:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+[1.308s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:165:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(const MessageT*) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>]
+[1.308s]    [01;36m[Kpublish[m[K(const MessageT * msg)
+[1.308s]    [01;36m[K^~~~~~~[m[K
+[1.308s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:165:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >*[m[K’
+[1.308s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:174:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]
+[1.309s]    [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[1.309s]    [01;36m[K^~~~~~~[m[K
+[1.309s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:174:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kconst rcl_serialized_message_t& {aka const rcutils_uint8_array_t&}[m[K’
+[1.309s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(const rcl_serialized_message_t*) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]
+[1.309s]    [01;36m[Kpublish[m[K(const rcl_serialized_message_t * serialized_msg)
+[1.309s]    [01;36m[K^~~~~~~[m[K
+[1.309s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kconst rcl_serialized_message_t* {aka const rcutils_uint8_array_t*}[m[K’
+[1.310s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: void rclcpp::Publisher<MessageT, Alloc>::publish(std::shared_ptr<const rcutils_uint8_array_t>) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; Alloc = std::allocator<void>]
+[1.310s]    [01;36m[Kpublish[m[K(std::shared_ptr<const rcl_serialized_message_t> serialized_msg)
+[1.310s]    [01;36m[K^~~~~~~[m[K
+[1.310s] [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:196:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::remove_reference<double&>::type {aka double}[m[K’ to ‘[01m[Kstd::shared_ptr<const rcutils_uint8_array_t>[m[K’
+[1.722s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+[1.722s] make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[1.722s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[1.722s] CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+[1.723s] make: *** [all] Error 2
+[1.723s] Makefile:140: recipe for target 'all' failed
+[1.725s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

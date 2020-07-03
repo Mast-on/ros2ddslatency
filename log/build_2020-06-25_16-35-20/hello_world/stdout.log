@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 0.7.13 (/opt/ros/dashing/share/rclcpp_components/cmake)
+-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+-- Found hello_world_msgs: 0.1.0 (/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shiozaki/ros2/build/hello_world
+[35m[1mScanning dependencies of target listener[0m
+[35m[1mScanning dependencies of target talker_listener_composition[0m
+[35m[1mScanning dependencies of target talker_with_service[0m
+[  5%] [32mBuilding CXX object CMakeFiles/talker_with_service.dir/src/talker_with_service.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/talker_listener_composition.dir/src/talker_listener_composition.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[35m[1mScanning dependencies of target client_sync[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/client_sync.dir/src/client_sync.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable listener[0m
+[ 25%] Built target listener
+[35m[1mScanning dependencies of target talker_with_service_param[0m
+[ 30%] [32m[1mLinking CXX executable client_sync[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/talker_with_service_param.dir/src/talker_with_service_param.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable talker_with_service[0m
+[ 45%] [32m[1mLinking CXX executable talker_listener_composition[0m
+[ 45%] Built target client_sync
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 50%] Built target talker_with_service
+[35m[1mScanning dependencies of target listener_component[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener_component.cpp.o[0m
+[ 55%] Built target talker_listener_composition
+[35m[1mScanning dependencies of target set_and_get_parameters[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/set_and_get_parameters.dir/src/set_and_get_parameters.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable set_and_get_parameters[0m
+[ 65%] Built target set_and_get_parameters
+[35m[1mScanning dependencies of target talker_component[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker_component.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 80%] [32m[1mLinking CXX executable talker_with_service_param[0m
+[ 80%] Built target talker
+[35m[1mScanning dependencies of target client_async[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/client_async.dir/src/client_async.cpp.o[0m
+[ 85%] Built target talker_with_service_param
+[ 90%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[ 90%] Built target listener_component
+[ 95%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[100%] [32m[1mLinking CXX executable client_async[0m
+[100%] Built target talker_component
+[100%] Built target client_async
+[ 20%] Built target talker_listener_composition
+[ 20%] Built target listener
+[ 35%] Built target client_sync
+[ 40%] Built target talker_with_service
+[ 60%] Built target talker_with_service_param
+[ 60%] Built target talker
+[ 70%] Built target set_and_get_parameters
+[ 80%] Built target listener_component
+[ 90%] Built target client_async
+[100%] Built target talker_component
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/talker" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service_param
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_with_service_param" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/listener
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/listener" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/client_sync
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/client_sync" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/client_async
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/client_async" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_listener_composition
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/talker_listener_composition" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/lib/hello_world/set_and_get_parameters
+-- Set runtime path of "/home/shiozaki/ros2/install/hello_world/lib/hello_world/set_and_get_parameters" to ""
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener_with_param.launch.py
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/params.yaml
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener.launch.py
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world//launch/talker_listener_with_param_file.launch.py
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/environment/path.sh
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.bash
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.sh
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/local_setup.zsh
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/packages/hello_world
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/ament_index/resource_index/rclcpp_components/hello_world
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+-- Installing: /home/shiozaki/ros2/install/hello_world/share/hello_world/package.xml

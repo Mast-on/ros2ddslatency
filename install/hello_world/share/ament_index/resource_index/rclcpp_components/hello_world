@@ -1,0 +1,2 @@
+hello_world::TalkerComponent;lib/libtalker_component.so
+hello_world::ListenerComponent;lib/liblistener_component.so

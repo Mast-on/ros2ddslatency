@@ -1,0 +1,4 @@
+[console_scripts]
+client = examples_rclpy_actions.client:main
+server = examples_rclpy_actions.server:main
+

@@ -1,0 +1,22 @@
+[1.023s] Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed
+[1.409s] running egg_info
+[1.410s] writing /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/PKG-INFO
+[1.411s] writing dependency_links to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/dependency_links.txt
+[1.411s] writing entry points to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/entry_points.txt
+[1.411s] writing requirements to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/requires.txt
+[1.411s] writing top-level names to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/top_level.txt
+[1.477s] reading manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+[1.482s] writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+[1.482s] running build
+[1.483s] running build_py
+[1.484s] running install
+[1.485s] running install_lib
+[1.488s] running install_data
+[1.490s] running install_egg_info
+[1.494s] removing '/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services-0.6.3-py3.6.egg-info' (and everything under it)
+[1.495s] Copying /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info to /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services-0.6.3-py3.6.egg-info
+[1.497s] running install_scripts
+[1.535s] Installing client script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+[1.536s] Installing service script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+[1.537s] writing list of installed files to '/home/shiozaki/ros2/build/examples_rclpy_services/install.log'
+[1.619s] Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+[ 10%] Built target talker_with_service
+[ 20%] Built target client_sync
+[ 30%] Built target talker_listener_composition
+[ 40%] Built target listener
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target listener_component
+[ 60%] Built target talker_with_service_param
+[ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target client_async
+[ 95%] Built target talker_component
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:55:111:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::microseconds>(std::chrono::duration<long int, std::ratio<1, 1000000000> >::rep)[m[K’
+  auto duration_in_seconds = std::chrono::duration_cast<std::chrono::microseconds>(a.time_since_epoch().count()[01;31m[K)[m[K;
+                                                                                                               [01;31m[K^[m[K
+In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[01m[K/usr/include/c++/7/chrono:194:7:[m[K [01;36m[Knote: [m[Kcandidate: template<class _ToDur, class _Rep, class _Period> constexpr typename std::enable_if<std::chrono::__is_duration<_Tp>::value, _ToDur>::type std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)
+       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/chrono:194:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:55:111:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’ and ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >::rep {aka long int}[m[K’
+  auto duration_in_seconds = std::chrono::duration_cast<std::chrono::microseconds>(a.time_since_epoch().count()[01;36m[K)[m[K;
+                                                                                                               [01;36m[K^[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdutarion_in_seconds[m[K’ was not declared in this scope
+  img->header.frame_id = std::to_string([01;31m[Kdutarion_in_seconds[m[K);
+                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

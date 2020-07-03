@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 10%] Built target client_sync
+[ 20%] Built target talker_listener_composition
+[ 30%] Built target talker_with_service
+[ 35%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 45%] Built target talker_with_service_param
+[ 55%] Built target talker
+[ 65%] Built target listener_component
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target talker_component
+[ 95%] Built target client_async
+[01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int32_imulti_array.hpp: そのようなファイルやディレクトリはありません
+ #include [01;31m[K<std_msgs/msg/int32_imulti_array.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/listener.dir/all' failed
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

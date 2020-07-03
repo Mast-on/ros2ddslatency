@@ -1,0 +1,23 @@
+[0.047s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.157s] [ 10%] Built target talker_listener_composition
+[0.164s] [ 20%] Built target client_sync
+[0.170s] [ 30%] Built target talker_with_service
+[0.171s] [ 40%] Built target listener
+[0.197s] [35m[1mScanning dependencies of target talker[0m
+[0.227s] [ 50%] Built target set_and_get_parameters
+[0.227s] [ 60%] Built target talker_with_service_param
+[0.242s] [ 70%] Built target listener_component
+[0.244s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.279s] [ 85%] Built target client_async
+[0.285s] [ 95%] Built target talker_component
+[2.519s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.698s] CMakeFiles/talker.dir/src/talker.cpp.o: 関数 `rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_publisher_options_t const&, rclcpp::PublisherEventCallbacks const&, std::shared_ptr<std::allocator<sensor_msgs::msg::Image_<std::allocator<void> > > > const&)' 内:
+[2.698s] talker.cpp:(.text._ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK23rcl_publisher_options_tRKNS_23PublisherEventCallbacksERKSt10shared_ptrISaIS5_EE[_ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK23rcl_publisher_options_tRKNS_23PublisherEventCallbacksERKSt10shared_ptrISaIS5_EE]+0x26): `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<sensor_msgs::msg::Image_<std::allocator<void> > >()' に対する定義されていない参照です
+[2.700s] collect2: error: ld returned 1 exit status
+[2.704s] CMakeFiles/talker.dir/build.make:155: recipe for target 'talker' failed
+[2.705s] make[2]: *** [talker] Error 1
+[2.705s] CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+[2.706s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[2.706s] Makefile:140: recipe for target 'all' failed
+[2.706s] make: *** [all] Error 2
+[2.709s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

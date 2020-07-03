@@ -1,0 +1,22 @@
+[ 20%] Built target listener
+[ 20%] Built target talker_listener_composition
+[ 30%] Built target client_sync
+[ 40%] Built target talker_with_service
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target talker_with_service_param
+[ 55%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 75%] Built target set_and_get_parameters
+[ 75%] Built target listener_component
+[ 85%] Built target client_async
+[ 95%] Built target talker_component
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:47:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<int> {aka class std::vector<int>}[m[K’ has no member named ‘[01m[Kpush_buck[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+   arr_msg->data.[01;31m[Kpush_buck[m[K(1);
+                 [01;31m[K^~~~~~~~~[m[K
+                 [32m[Kpush_back[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

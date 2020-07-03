@@ -1,0 +1,28 @@
+[ 10%] Built target client_sync
+[ 20%] Built target talker_with_service
+[ 30%] Built target talker_listener_composition
+[ 40%] Built target listener
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target talker_with_service_param
+[ 60%] Built target listener_component
+[ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target client_async
+[ 95%] Built target talker_component
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:22:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now()[m[K’
+  img->header.stamp = [01;31m[Know[m[K;
+                      [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:998:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Know[m[K();
+   [01;36m[K^~~[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

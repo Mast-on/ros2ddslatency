@@ -1,0 +1,68 @@
+[0.017s] Invoking command in '/home/shiozaki/ros2/build/fibonacci': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/shiozaki/ros2/src/fibonacci -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/fibonacci
+[0.099s] -- The C compiler identification is GNU 7.5.0
+[0.163s] -- The CXX compiler identification is GNU 7.5.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.254s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.351s] -- Detecting C compile features
+[0.604s] -- Detecting C compile features - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++
+[0.698s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.699s] -- Detecting CXX compiler ABI info
+[0.823s] -- Detecting CXX compiler ABI info - done
+[0.832s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.296s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.329s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.329s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.554s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.594s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.639s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.641s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.642s] -- Looking for pthread.h
+[1.734s] -- Looking for pthread.h - found
+[1.734s] -- Looking for pthread_create
+[1.835s] -- Looking for pthread_create - not found
+[1.835s] -- Looking for pthread_create in pthreads
+[1.916s] -- Looking for pthread_create in pthreads - not found
+[1.917s] -- Looking for pthread_create in pthread
+[2.005s] -- Looking for pthread_create in pthread - found
+[2.007s] -- Found Threads: TRUE  
+[2.063s] -- Found rclcpp_action: 0.7.13 (/opt/ros/dashing/share/rclcpp_action/cmake)
+[2.173s] -- Found hello_world_msgs: 0.1.0 (/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/cmake)
+[2.427s] -- Configuring done
+[2.471s] -- Generating done
+[2.473s] -- Build files have been written to: /home/shiozaki/ros2/build/fibonacci
+[2.479s] Invoked command in '/home/shiozaki/ros2/build/fibonacci' returned '0': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/shiozaki/ros2/src/fibonacci -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/fibonacci
+[2.481s] Invoking command in '/home/shiozaki/ros2/build/fibonacci': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci -- -j4 -l4
+[2.534s] [35m[1mScanning dependencies of target action_client[0m
+[2.535s] [35m[1mScanning dependencies of target action_server[0m
+[2.609s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[2.609s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[8.502s] [ 75%] [32m[1mLinking CXX executable action_server[0m
+[9.026s] [ 75%] Built target action_server
+[9.146s] [100%] [32m[1mLinking CXX executable action_client[0m
+[9.668s] [100%] Built target action_client
+[9.701s] Invoked command in '/home/shiozaki/ros2/build/fibonacci' returned '0': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci -- -j4 -l4
+[9.976s] Invoking command in '/home/shiozaki/ros2/build/fibonacci': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci --target install -- -j4 -l4
+[10.148s] [ 50%] Built target action_server
+[10.175s] [100%] Built target action_client
+[10.211s] [36mInstall the project...[0m
+[10.228s] -- Install configuration: ""
+[10.228s] -- Installing: /home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_server
+[10.229s] -- Set runtime path of "/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_server" to ""
+[10.230s] -- Installing: /home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_client
+[10.231s] -- Set runtime path of "/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_client" to ""
+[10.235s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/package_run_dependencies/fibonacci
+[10.236s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/parent_prefix_path/fibonacci
+[10.236s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/ament_prefix_path.sh
+[10.236s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/path.sh
+[10.236s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.bash
+[10.237s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.sh
+[10.237s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.zsh
+[10.237s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/packages/fibonacci
+[10.237s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig.cmake
+[10.237s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig-version.cmake
+[10.238s] -- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.xml
+[10.257s] Invoked command in '/home/shiozaki/ros2/build/fibonacci' returned '0': AMENT_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shiozaki/ros2/install/hello_world_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shiozaki/ros2/build/fibonacci --target install -- -j4 -l4

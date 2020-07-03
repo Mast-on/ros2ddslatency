@@ -1,0 +1,14 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:55:109:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconstexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1, 1000000000>; std::chrono::duration<_Rep, _Period>::rep = long int][m[K’
+  auto duration_in_seconds = std::chrono::duration_cast<std::chrono::microseconds>(a.time_since_epoch().count[01;31m[K)[m[K;
+                                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:15:0[m[K:
+[01m[K/usr/include/c++/7/chrono:342:2:[m[K [01;36m[Knote: [m[Kdeclared here
+  [01;36m[Kcount[m[K() const
+  [01;36m[K^~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:59:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdutarion_in_seconds[m[K’ was not declared in this scope
+  img->header.frame_id = std::to_string([01;31m[Kdutarion_in_seconds[m[K);
+                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

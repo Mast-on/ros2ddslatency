@@ -1,0 +1,7 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:58:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::unique_ptr<std_msgs::msg::Int32MultiArray_<std::allocator<void> >, std::default_delete<std_msgs::msg::Int32MultiArray_<std::allocator<void> > > >[m[K’ has no member named ‘[01m[KHeader[m[K’
+  arr_msg.[01;31m[KHeader[m[K.frame_id = std::to_string(id);
+          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,20 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kduble[m[K’ was not declared in this scope
+  std::chrono::duration<[01;31m[Kduble[m[K> diff = end - start;
+                        [01;31m[K^~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:24:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdouble[m[K’
+  std::chrono::duration<[01;36m[Kduble[m[K> diff = end - start;
+                        [01;36m[K^~~~~[m[K
+                        [32m[Kdouble[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  std::chrono::duration<duble[01;31m[K>[m[K diff = end - start;
+                             [01;31m[K^[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:42:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__success_type<std::chrono::duration<long int, std::ratio<1, 1000000000> > >::type {aka std::chrono::duration<long int, std::ratio<1, 1000000000> >}[m[K’ to ‘[01m[Kint[m[K’ in initialization
+  std::chrono::duration<duble> diff = end - [01;31m[Kstart[m[K;
+                                            [01;31m[K^~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:43:49:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcount[m[K’ in ‘[01m[Kdiff[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+         msg->data = "Hello world!" + (char)diff.[01;31m[Kcount[m[K();
+                                                 [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

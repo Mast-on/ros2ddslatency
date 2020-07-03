@@ -1,0 +1,45 @@
+[ 10%] Built target client_sync
+[ 20%] Built target talker_listener_composition
+[ 30%] Built target talker_with_service
+[ 40%] Built target listener
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target talker_with_service_param
+[ 55%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 65%] Built target listener_component
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target talker_component
+[ 95%] Built target client_async
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:47:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<int>}[m[K’ and ‘[01m[Kint32_t [3] {aka int [3]}[m[K’)
+  arr_msg->data = [01;31m[Kdata[m[K;
+                  [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/7/vector:69:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:27[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[01m[K/usr/include/c++/7/bits/vector.tcc:179:5:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]
+     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/vector.tcc:179:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint32_t [3] {aka int [3]}[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:27[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:19[m[K:
+[01m[K/usr/include/c++/7/bits/stl_vector.h:461:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = int; _Alloc = std::allocator<int>]
+       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:461:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint32_t [3] {aka int [3]}[m[K’ to ‘[01m[Kstd::vector<int>&&[m[K’
+[01m[K/usr/include/c++/7/bits/stl_vector.h:482:7:[m[K [01;36m[Knote: [m[Kcandidate: std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = int; _Alloc = std::allocator<int>]
+       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_vector.h:482:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint32_t [3] {aka int [3]}[m[K’ to ‘[01m[Kstd::initializer_list<int>[m[K’
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

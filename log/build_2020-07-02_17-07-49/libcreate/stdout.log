@@ -1,0 +1,34 @@
+[ 36%] Built target create
+[ 45%] Built target wheeldrop
+[ 54%] Built target play_song
+[ 63%] Built target packets
+[ 72%] Built target battery_level
+[ 81%] Built target drive_circle
+[ 90%] Built target leds
+[100%] Built target bumpers
+[ 36%] Built target create
+[ 45%] Built target wheeldrop
+[ 54%] Built target play_song
+[ 63%] Built target battery_level
+[ 72%] Built target packets
+[ 81%] Built target drive_circle
+[ 90%] Built target leds
+[100%] Built target bumpers
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/libcreate.so
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial_stream.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/types.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/util.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/data.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/create.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/serial_query.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/include/create/packet.h
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+-- Up-to-date: /home/shiozaki/ros2/install/libcreate/share/libcreate/package.xml

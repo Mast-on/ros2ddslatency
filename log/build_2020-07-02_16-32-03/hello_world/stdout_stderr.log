@@ -1,0 +1,21 @@
+[ 10%] Built target talker_with_service
+[ 20%] Built target talker_listener_composition
+[ 30%] Built target client_sync
+[ 40%] Built target listener
+[35m[1mScanning dependencies of target talker[0m
+[ 55%] Built target set_and_get_parameters
+[ 60%] Built target talker_with_service_param
+[ 65%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 75%] Built target listener_component
+[ 85%] Built target client_async
+[ 95%] Built target talker_component
+[100%] [32m[1mLinking CXX executable talker[0m
+CMakeFiles/talker.dir/src/talker.cpp.o: 関数 `rclcpp::Publisher<sensor_msgs::msg::Image_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_publisher_options_t const&, rclcpp::PublisherEventCallbacks const&, std::shared_ptr<std::allocator<sensor_msgs::msg::Image_<std::allocator<void> > > > const&)' 内:
+talker.cpp:(.text._ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK23rcl_publisher_options_tRKNS_23PublisherEventCallbacksERKSt10shared_ptrISaIS5_EE[_ZN6rclcpp9PublisherIN11sensor_msgs3msg6Image_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK23rcl_publisher_options_tRKNS_23PublisherEventCallbacksERKSt10shared_ptrISaIS5_EE]+0x26): `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<sensor_msgs::msg::Image_<std::allocator<void> > >()' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+CMakeFiles/talker.dir/build.make:155: recipe for target 'talker' failed
+make[2]: *** [talker] Error 1
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

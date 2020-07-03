@@ -1,0 +1,7 @@
+{
+  "package_name": "hello_world_msgs",
+  "non_idl_tuples": [
+    "/home/shiozaki/ros2/src/hello_world_msgs:srv/SetMessage.srv",
+    "/home/shiozaki/ros2/src/hello_world_msgs:action/Fibonacci.action"
+  ]
+}

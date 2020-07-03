@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/set_message__type_support.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/set_message__rosidl_typesupport_opensplice_cpp.hpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/fibonacci__type_support.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/fibonacci__rosidl_typesupport_opensplice_cpp.hpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps_impl.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps_impl.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_SplDcps.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_SplDcps.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/ccpp_SetMessage_.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps_impl.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps_impl.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_SplDcps.h"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_SplDcps.cpp"
+  "rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/ccpp_Fibonacci_.h"
+  "rosidl_generator_dds_idl/hello_world_msgs/srv/dds_opensplice/SetMessage_.idl"
+  "rosidl_generator_dds_idl/hello_world_msgs/action/dds_opensplice/Fibonacci_.idl"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/set_message__type_support.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/fibonacci__type_support.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_Dcps_impl.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/srv/dds_opensplice/SetMessage_SplDcps.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_Dcps_impl.cpp.o"
+  "CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/hello_world_msgs/action/dds_opensplice/Fibonacci_SplDcps.cpp.o"
+  "libhello_world_msgs__rosidl_typesupport_opensplice_cpp.pdb"
+  "libhello_world_msgs__rosidl_typesupport_opensplice_cpp.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/hello_world_msgs__rosidl_typesupport_opensplice_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

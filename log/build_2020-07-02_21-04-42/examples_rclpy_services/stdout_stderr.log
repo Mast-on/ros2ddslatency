@@ -1,0 +1,20 @@
+running egg_info
+writing /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/PKG-INFO
+writing dependency_links to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/dependency_links.txt
+writing entry points to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/entry_points.txt
+writing requirements to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/requires.txt
+writing top-level names to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/top_level.txt
+reading manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services-0.6.3-py3.6.egg-info' (and everything under it)
+Copying /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info to /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services-0.6.3-py3.6.egg-info
+running install_scripts
+Installing client script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+Installing service script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+writing list of installed files to '/home/shiozaki/ros2/build/examples_rclpy_services/install.log'

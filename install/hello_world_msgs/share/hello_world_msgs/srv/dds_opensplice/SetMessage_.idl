@@ -1,0 +1,99 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from hello_world_msgs:srv/SetMessage.idl
+// generated code does not contain a copyright notice
+
+#ifndef __hello_world_msgs__srv__set_message__idl__
+#define __hello_world_msgs__srv__set_message__idl__
+
+
+module hello_world_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct SetMessage_Request_ {
+string message_;
+
+};
+
+#pragma keylist SetMessage_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct SetMessage_Response_ {
+boolean result_;
+
+};
+
+#pragma keylist SetMessage_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module hello_world_msgs
+
+
+module hello_world_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_SetMessage_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::srv::dds_::SetMessage_Request_ request_;
+
+};
+
+#pragma keylist Sample_SetMessage_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module hello_world_msgs {
+
+
+module hello_world_msgs {
+
+module srv {
+
+module dds_ {
+
+struct Sample_SetMessage_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+hello_world_msgs::srv::dds_::SetMessage_Response_ response_;
+
+};
+
+#pragma keylist Sample_SetMessage_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module hello_world_msgs {
+
+
+#endif  // __hello_world_msgs__srv__set_message__idl__

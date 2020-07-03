@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.105s] [35m[1mScanning dependencies of target listener[0m
+[0.128s] [ 10%] Built target client_sync
+[0.158s] [ 20%] Built target talker_listener_composition
+[0.165s] [ 30%] Built target talker_with_service
+[0.173s] [ 35%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.196s] [ 45%] Built target talker_with_service_param
+[0.225s] [ 55%] Built target talker
+[0.232s] [ 65%] Built target listener_component
+[0.263s] [ 75%] Built target set_and_get_parameters
+[0.283s] [ 85%] Built target talker_component
+[0.284s] [ 95%] Built target client_async
+[0.313s] [01m[K/home/shiozaki/ros2/src/hello_world/src/listener.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int32_imulti_array.hpp: そのようなファイルやディレクトリはありません
+[0.313s]  #include [01;31m[K<std_msgs/msg/int32_imulti_array.hpp>[m[K
+[0.313s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.313s] compilation terminated.
+[0.314s] CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/listener.cpp.o' failed
+[0.314s] make[2]: *** [CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[0.315s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/listener.dir/all' failed
+[0.315s] make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+[0.315s] make: *** [all] Error 2
+[0.315s] Makefile:140: recipe for target 'all' failed
+[0.317s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

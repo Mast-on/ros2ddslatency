@@ -1,0 +1,18 @@
+[0.026s] Invoking command in '/home/shiozaki/ros2/build/hello_world': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4
+[0.064s] -- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.107s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.362s] -- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.376s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.412s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] -- Found hello_world_msgs: 0.1.0 (/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/cmake)
+[0.563s] CMake Error at CMakeLists.txt:48 (rclcpp_components_register_nodes):
+[0.563s]   Unknown CMake command "rclcpp_components_register_nodes".
+[0.563s] 
+[0.563s] 
+[0.564s] -- Configuring incomplete, errors occurred!
+[0.564s] See also "/home/shiozaki/ros2/build/hello_world/CMakeFiles/CMakeOutput.log".
+[0.564s] See also "/home/shiozaki/ros2/build/hello_world/CMakeFiles/CMakeError.log".
+[0.566s] make: *** [cmake_check_build_system] Error 1
+[0.566s] Makefile:648: recipe for target 'cmake_check_build_system' failed
+[0.568s] Invoked command in '/home/shiozaki/ros2/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/home/shiozaki/ros2/install/hello_world_msgs:/home/shiozaki/ros2/install/libcreate:/home/shiozaki/ros2/install/hello_world:/home/shiozaki/ros2/install/fibonacci:/home/shiozaki/ros2/install/examples_rclpy_topics:/home/shiozaki/ros2/install/examples_rclpy_services:/home/shiozaki/ros2/install/examples_rclpy_minimal_action_server:/opt/ros/dashing LD_LIBRARY_PATH=/home/shiozaki/ros2/install/hello_world_msgs/lib:/home/shiozaki/ros2/install/libcreate/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/dashing/lib /usr/bin/cmake --build /home/shiozaki/ros2/build/hello_world -- -j4 -l4

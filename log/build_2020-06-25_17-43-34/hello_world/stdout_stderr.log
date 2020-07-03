@@ -1,0 +1,16 @@
+-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found hello_world_msgs: 0.1.0 (/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/cmake)
+CMake Error at CMakeLists.txt:48 (rclcpp_components_register_nodes):
+  Unknown CMake command "rclcpp_components_register_nodes".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/shiozaki/ros2/build/hello_world/CMakeFiles/CMakeOutput.log".
+See also "/home/shiozaki/ros2/build/hello_world/CMakeFiles/CMakeError.log".
+make: *** [cmake_check_build_system] Error 1
+Makefile:648: recipe for target 'cmake_check_build_system' failed

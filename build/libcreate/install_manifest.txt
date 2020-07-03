@@ -1,0 +1,14 @@
+/home/shiozaki/ros2/install/libcreate/lib/libcreate.so
+/home/shiozaki/ros2/install/libcreate/include/create/serial_stream.h
+/home/shiozaki/ros2/install/libcreate/include/create/types.h
+/home/shiozaki/ros2/install/libcreate/include/create/util.h
+/home/shiozaki/ros2/install/libcreate/include/create/data.h
+/home/shiozaki/ros2/install/libcreate/include/create/create.h
+/home/shiozaki/ros2/install/libcreate/include/create/serial.h
+/home/shiozaki/ros2/install/libcreate/include/create/serial_query.h
+/home/shiozaki/ros2/install/libcreate/include/create/packet.h
+/home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+/home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+/home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+/home/shiozaki/ros2/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+/home/shiozaki/ros2/install/libcreate/share/libcreate/package.xml

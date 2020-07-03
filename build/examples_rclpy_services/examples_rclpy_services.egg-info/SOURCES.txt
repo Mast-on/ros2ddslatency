@@ -1,0 +1,15 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/PKG-INFO
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/dependency_links.txt
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/entry_points.txt
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/requires.txt
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/top_level.txt
+/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/zip-safe
+examples_rclpy_services/__init__.py
+examples_rclpy_services/client.py
+examples_rclpy_services/service.py
+resource/examples_rclpy_services

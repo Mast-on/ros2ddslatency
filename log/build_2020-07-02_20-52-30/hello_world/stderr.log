@@ -1,0 +1,18 @@
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:52:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kuuid_string[m[K’ was not declared in this scope
+  [01;31m[Kuuid_string[m[K uuid_str;
+  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:52:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuuid_variant[m[K’
+  [01;36m[Kuuid_string[m[K uuid_str;
+  [01;36m[K^~~~~~~~~~~[m[K
+  [32m[Kuuid_variant[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:53:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kuuid_str[m[K’ was not declared in this scope
+  uuid_unparse_upper(req_uuid, [01;31m[Kuuid_str[m[K);
+                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:53:31:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kuuid_t[m[K’
+  uuid_unparse_upper(req_uuid, [01;36m[Kuuid_str[m[K);
+                               [01;36m[K^~~~~~~~[m[K
+                               [32m[Kuuid_t[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

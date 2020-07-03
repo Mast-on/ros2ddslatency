@@ -1,0 +1,6 @@
+Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/shiozaki/ros2/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/libcreate
+Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/shiozaki/ros2/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/shiozaki/ros2/install/libcreate
+Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate -- -j4 -l4
+Invoking command in '/home/shiozaki/ros2/build/libcreate': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4
+Invoked command in '/home/shiozaki/ros2/build/libcreate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/shiozaki/ros2/build/libcreate --target install -- -j4 -l4

@@ -1,0 +1,21 @@
+[ 15%] Built target talker_listener_composition
+[ 20%] Built target client_sync
+[ 30%] Built target listener
+[ 40%] Built target talker_with_service
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] Built target talker_with_service_param
+[ 55%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 65%] Built target listener_component
+[ 75%] Built target set_and_get_parameters
+[ 85%] Built target talker_component
+[ 95%] Built target client_async
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:[m[K In lambda function:
+[01m[K/home/shiozaki/ros2/src/hello_world/src/talker.cpp:40:50:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kstd::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}[m[K’ to type ‘[01m[Kchar[m[K’
+  auto now = char(std::chrono::system_clock::now()[01;31m[K)[m[K;
+                                                  [01;31m[K^[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+CMakeFiles/Makefile2:284: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

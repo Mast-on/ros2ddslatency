@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:48 (rclcpp_components_register_nodes):
+  Unknown CMake command "rclcpp_components_register_nodes".
+
+
+make: *** [cmake_check_build_system] Error 1

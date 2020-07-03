@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/PKG-INFO
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/SOURCES.txt
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/dependency_links.txt
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/entry_points.txt
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/requires.txt
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/top_level.txt
+/home/shiozaki/ros2/build/examples_rclpy_minimal_action_server/examples_rclpy_actions.egg-info/zip-safe
+examples_rclpy_actions/__init__.py
+examples_rclpy_actions/client.py
+examples_rclpy_actions/server.py
+resource/examples_rclpy_actions

@@ -1,0 +1,13 @@
+/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_server
+/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_client
+/home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/package_run_dependencies/fibonacci
+/home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/parent_prefix_path/fibonacci
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/ament_prefix_path.sh
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/path.sh
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.bash
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.sh
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.zsh
+/home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/packages/fibonacci
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig.cmake
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig-version.cmake
+/home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.xml

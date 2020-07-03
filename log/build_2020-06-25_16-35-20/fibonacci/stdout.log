@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.13 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 0.7.13 (/opt/ros/dashing/share/rclcpp_action/cmake)
+-- Found hello_world_msgs: 0.1.0 (/home/shiozaki/ros2/install/hello_world_msgs/share/hello_world_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shiozaki/ros2/build/fibonacci
+[35m[1mScanning dependencies of target action_client[0m
+[35m[1mScanning dependencies of target action_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable action_server[0m
+[ 75%] Built target action_server
+[100%] [32m[1mLinking CXX executable action_client[0m
+[100%] Built target action_client
+[ 50%] Built target action_server
+[100%] Built target action_client
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_server
+-- Set runtime path of "/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_server" to ""
+-- Installing: /home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_client
+-- Set runtime path of "/home/shiozaki/ros2/install/fibonacci/lib/fibonacci/action_client" to ""
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/package_run_dependencies/fibonacci
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/parent_prefix_path/fibonacci
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/ament_prefix_path.sh
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/environment/path.sh
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.bash
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.sh
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/local_setup.zsh
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/ament_index/resource_index/packages/fibonacci
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig.cmake
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/cmake/fibonacciConfig-version.cmake
+-- Installing: /home/shiozaki/ros2/install/fibonacci/share/fibonacci/package.xml

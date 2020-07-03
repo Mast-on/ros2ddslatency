@@ -1,0 +1,41 @@
+[0.931s] Invoking command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed
+[1.318s] running egg_info
+[1.319s] creating /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info
+[1.319s] writing /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/PKG-INFO
+[1.319s] writing dependency_links to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/dependency_links.txt
+[1.319s] writing entry points to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/entry_points.txt
+[1.320s] writing requirements to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/requires.txt
+[1.320s] writing top-level names to /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/top_level.txt
+[1.320s] writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+[1.394s] reading manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '/home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.397s] creating /home/shiozaki/ros2/build/examples_rclpy_services/build
+[1.398s] creating /home/shiozaki/ros2/build/examples_rclpy_services/build/lib
+[1.398s] creating /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services
+[1.398s] copying examples_rclpy_services/client.py -> /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services
+[1.398s] copying examples_rclpy_services/__init__.py -> /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services
+[1.398s] copying examples_rclpy_services/service.py -> /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services
+[1.398s] running install
+[1.399s] running install_lib
+[1.401s] creating /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services
+[1.401s] copying /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services/client.py -> /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services
+[1.401s] copying /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services/__init__.py -> /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services
+[1.401s] copying /home/shiozaki/ros2/build/examples_rclpy_services/build/lib/examples_rclpy_services/service.py -> /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services
+[1.403s] byte-compiling /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services/client.py to client.cpython-36.pyc
+[1.404s] byte-compiling /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services/__init__.py to __init__.cpython-36.pyc
+[1.404s] byte-compiling /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services/service.py to service.cpython-36.pyc
+[1.404s] running install_data
+[1.405s] creating /home/shiozaki/ros2/install/examples_rclpy_services/share/ament_index
+[1.406s] creating /home/shiozaki/ros2/install/examples_rclpy_services/share/ament_index/resource_index
+[1.406s] creating /home/shiozaki/ros2/install/examples_rclpy_services/share/ament_index/resource_index/packages
+[1.406s] copying resource/examples_rclpy_services -> /home/shiozaki/ros2/install/examples_rclpy_services/share/ament_index/resource_index/packages
+[1.406s] copying package.xml -> /home/shiozaki/ros2/install/examples_rclpy_services/share/examples_rclpy_services
+[1.407s] running install_egg_info
+[1.410s] Copying /home/shiozaki/ros2/build/examples_rclpy_services/examples_rclpy_services.egg-info to /home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages/examples_rclpy_services-0.6.3-py3.6.egg-info
+[1.412s] running install_scripts
+[1.450s] Installing client script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+[1.450s] Installing service script to /home/shiozaki/ros2/install/examples_rclpy_services/lib/examples_rclpy_services
+[1.450s] writing list of installed files to '/home/shiozaki/ros2/build/examples_rclpy_services/install.log'
+[1.497s] Invoked command in '/home/shiozaki/ros2/src/examples_rclpy/examples_rclpy_services' returned '0': PYTHONPATH=/home/shiozaki/ros2/install/examples_rclpy_services/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/shiozaki/ros2/build/examples_rclpy_services build --build-base /home/shiozaki/ros2/build/examples_rclpy_services/build install --prefix /home/shiozaki/ros2/install/examples_rclpy_services --record /home/shiozaki/ros2/build/examples_rclpy_services/install.log --single-version-externally-managed

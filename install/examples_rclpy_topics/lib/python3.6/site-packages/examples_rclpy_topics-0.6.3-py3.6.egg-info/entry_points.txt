@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = examples_rclpy_topics.publisher:main
+subscriber = examples_rclpy_topics.subscriber:main
+
